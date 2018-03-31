@@ -50,8 +50,8 @@ nav a:hover {
   font-family: 'Press Start 2P', cursive;
   width: 250px;
   height: 15px;
+  border: 3px solid;
   border-radius: 20px;
-  border-color: black;
   background: white;
   outline: none;
   position: relative;
@@ -62,7 +62,7 @@ nav a:hover {
 
 .first-input:focus {
   font-family: 'Press Start 2P', cursive;
-  font-size: 10px;
+  font-size: 17px;
   width: 200px;
   height: 20px;
   border-radius:30px;

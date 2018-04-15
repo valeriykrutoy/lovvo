@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@font-face {
+  font-family: "Broadway";
+  src: url(../fonts/ufonts.broadway.ttf);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(250, 210, 224);
+  top: +20px;
+  left: 5px;
+  display: inline;
+  border: 20px solid;
+  border-color: rgb(250, 210, 224);
+  border-radius: 50px;
+}
+
+nav a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.first-form {
+  float: right;
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  height: 15px;
+  top: +25px;
+}
+
+.first-input {
+  font-family: 'Press Start 2P', cursive;
+  width: 250px;
+  height: 15px;
+  border: 3px solid;
+  border-radius: 20px;
+  border-color: rgb(250, 210, 224);
+  color: rgb(250, 210, 224);
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+
+.first-input:focus {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 17px;
+  width: 200px;
+  height: 20px;
+  border-radius: 30px;
+  border-color: rgb(250, 210, 224);
+  color: white;
+  background-color: rgb(250, 210, 224);
+}
+
+.pink-grillz {
+  display: block;
+  margin: 25px auto 25px;
+  margin-top: +50px;
+  justify-content: center;
+
+}
+
+header {
+  line-height: 2;
+  margin-top: -100px;
+}
+
+.euq {
+  font-size: 25px;
+  left: 40px;
+  position: relative;
+  color: rgb(250, 210, 224);
+}
+
+.lov {
+  color: rgb(250, 210, 224);
+  font-size: 50px;
+  position: relative;
+  left: 375px;
+  letter-spacing: 50px;
+}
+
+.gra {
+  color: rgb(250, 210, 224);
+  left: 800px;
+  font-size: 25px;
+  position: relative;
+}
+
+.kasaj {
+  margin-top: +125px;
+  left: 20px;
+  position: relative;
+}
+
+#first {
+  font-size: 15px;
+  position: relative;
+  left: 170px;
+  top: -130px;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+#txt,
+#jpg {
+  top: -20px;
+  font-size: 30px;
+  left: 500px;
+  position: relative;
+  letter-spacing: 30px;
+  color: black;
+}
+
+section a {
+  font-size: 16.9px;
+  text-decoration: none;
+  color: black;
+}
+
+section a:hover {
+  color: rgb(250, 210, 224);
+}
+
+section h3 {
+  font-size: 13px;
+}
+
+#partone,
+#parttwo {
+  line-height: 1.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#special h2 {
+  position: relative;
+  left: 105px;
+}
+
+#milano h2 {
+  position: relative;
+  left: 370px;
+}
+
+#jpg {
+  margin: 5%;
+  top: +0px;
+  font-size: 30px;
+  left: 500px;
+  position: relative;
+  letter-spacing: 30px;
+  color: black;
+}
+
+#gallery {
+  position: relative;
+  left: 100px;
+}
+
+#social-media {
+  margin: 5%;
+  top: +70px;
+  font-size: 30px;
+  left: 430px;
+  position: relative;
+  letter-spacing: 5px;
+  color: black;
+}
+
+#sm {
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last-grillz {
+  display: block;
+  margin: 25px auto 25px;
+  margin-top: +80px;
+  justify-content: center;
+}
+
+#contact {
+  margin: 5%;
+  font-size: 18px;
+  position: relative;
+  left: 450px;
+}
+
+form {
+  outline: none;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  margin: +0px;
+}
+
+form input {
+  color: black;
+  text-align: center;
+}
+
+form textarea {
+  color: black;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#client-name {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  border: 2px solid black;
+  width: 520px;
+  height: 55px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: rgb(250, 210, 224);
+  outline: none;
+}
+
+#mail {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  border: 2px solid black;
+  width: 520px;
+  height: 55px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: rgb(250, 210, 224);
+  outline: none;
+}
+
+#ur-message {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  border: 2px solid black;
+  width: 520px;
+  height: 100px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: rgb(250, 210, 224);
+  outline: none;
+}
+
+#send {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  border: 2px solid black;
+  width: 320px;
+  height: 60px;
+  margin: 5px;
+  font-size: 15px;
+  background-color: rgb(250, 210, 224);
+  left: 100px;
+  outline: none;
+  color: black;
+}
+
+footer {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px;
+}

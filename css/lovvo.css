@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     text-decoration: none;
     margin: 10px;
@@ -79,5 +79,43 @@ nav a:hover {
 }
 
 
+header {
+  line-height:2;
+  margin-top:-65px;
+}
 
+
+.euq {
+font-size: 25px;
+  float: right;
+  position: relative;
+}
+
+.lov {
+  font-size: 50px;
+  position: relative;
+  left: 375px;
+ letter-spacing: 50px;
+
+}
+
+.gra {
+  font-size: 25px;
+position: relative;
+left: 20px;
+}
+
+.kasaj {
+    margin-top: +75px;
+    left: 50px;
+    position: relative;
+}
+
+#first {
+   font-size: 17px;
+   position:relative;
+   left: 205px; 
+   top: -130px;
+   text-align:left;
+}
 
